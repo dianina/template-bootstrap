@@ -1,4 +1,9 @@
-.navbar-collapse {
-	font-size: 15px;
-	color: white;
+body {
+	padding-top: 5em;
+}
+
+
+/* Seccion btnes tamaños*/
+.btnes {
+	margin-top: 18px;
 }
