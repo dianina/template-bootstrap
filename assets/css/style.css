@@ -8,3 +8,6 @@ body {
 	margin-top: 15px;
 }
 
+.badges a{
+	font-weight: bold;
+}
