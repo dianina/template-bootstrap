@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- CSS Bootstrap-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/">
+<!-- Estilos específicos propio Css-->
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<div class="container">
@@ -26,11 +28,11 @@
 
 <!-- Barras Menú hamburguesa-->
 				<a href="#" class="navbar-brand">Bootstrap Theme</a>
-
-<!-- Palabras Menú-->
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-1">
 				<ul class="nav navbar-nav">
+
+<!-- Opciones Menú-->
 					<li class="active"><a href="">Home</a></li><!-- Mostrar selección-->
 					<li><a href="">About</a></li>
 					<li><a href="">Contact</a></li>
@@ -280,6 +282,7 @@
 									</div>
 						</div><!-- (row 1)-->
 						<div class="row">
+
 <!-- Columna 1 row 2-->
 <!-- Tabla Bordered-->
 							<div class="col-md-6">
@@ -319,6 +322,7 @@
 								  </tbody>
 								</table>
 							</div>
+
 <!-- Columna 2 row 2-->
 <!-- Tabla Bordered-->
 							<div class="col-md-6">
@@ -363,6 +367,7 @@
 				<hr>
 				<img src="assets/img/thumb.png" alt="thumbnail" class="img-thumbnail">
 			</section>
+
 <!-- Sección Labels-->
 			<section class="labels">
 				<h2>
@@ -427,6 +432,7 @@
 					<span class="label label-danger">Danger</span>
 				</p>
 			</section>
+
 <!-- Sección Badges-->
 			<section class="badges">
 				<h2>
@@ -434,35 +440,37 @@
 					</strong>
 				</h2>
 				<hr>
+
 <!-- Elemento Info con notificaciones-->
-				<p>
-					<a href="#">Inbox <span class="badge">42</span></a>
-				</p>
-<!-- notificaciones pills-->
-				<ul class="nav nav-pills" role="tablist">
-					<li role="presentation" class="active"><a href="#">Home  <span class="badge">42</span></a></li>
-					<li role="presentation"><a href="#">Profile</a></li>
-					<li role="presentation"><a href="#">Messages<span class="badge">3</span></a></li>
-				</ul>
+					<p>
+						<a href="#">Inbox <span class="badge">42</span></a>
+					</p>
+
+	<!-- notificaciones pills-->
+					<ul class="nav nav-pills" role="tablist">
+						<li role="presentation" class="active"><a href="#">Home  <span class="badge">42</span></a></li>
+						<li role="presentation"><a href="#">Profile</a></li>
+						<li role="presentation"><a href="#">Messages<span class="badge">3</span></a></li>
+					</ul>
 			</section>
+
 <!-- Sección Dropdown menu-->
 			<section class="dropdown-menus">
 				<h2><strong>Dropdown menus</strong>
 				</h2>
 				<hr>
-				<div class="container-fluid">
 					<div class="dropdown theme-dropdown clearfix">
-      <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li class="active"><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
-      </ul>
-    </div>
-				</div>
+			      <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+			      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			        <li class="active"><a href="#">Action</a></li>
+			        <li><a href="#">Another action</a></li>
+			        <li><a href="#">Something else here</a></li>
+			        <li role="separator" class="divider"></li>
+			        <li><a href="#">Separated link</a></li>
+			      </ul>
+			    </div>
 			</section>
+
 <!-- Sección Navs-->
 			<section class="nav">
 				<h2><strong>Navs</strong>
@@ -493,7 +501,8 @@
 <!-- Normal Navbar-->
 				<nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand y toggle se agrupan para mejor vista movil-->
+
+<!-- Brand y toggle se agrupan para mejor vista movil-->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -532,7 +541,7 @@
 <!-- Inverse Navbar-->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <!-- Brand y toggle se agrupan para mejor vista movil-->
+<!-- Brand y toggle se agrupan para mejor vista movil-->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -562,17 +571,48 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">One more separated link</a></li>
           </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        		</li>
+      				</ul>
+    				</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+				</nav>
+			</section>
+
+<!-- Sección Alerts -->
+			<section class="alerts">
+				<div class="container-fluid">
+				<h2><strong>Alerts</strong>
+				</h2>
+				<hr>
+
+<!-- Mensajes de la alerta -->
+				<div class="alert alert-success" role="alert"><strong>Well done!</strong> You successfully read this important alert message.</div>
+				<div class="alert alert-info" role="alert"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+				<div class="alert alert-warning" role="alert"><strong>Warning!</strong> Best check yo self, you're not looking too good.</div>
+				<div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+				</div>
+			</section>
+
+<!-- Sección Progress Bar -->
+			<section class="progress-bar">
+				<div class="container-fluid">
+					<h2><strong>Progress bar</strong>
+				</h2>
+				<hr>
+				<p>prueba</p>
+				</div>
+				<
+				
 
 			</section>
 
 	</div>
 
+<!-- Enlace JQuery -->
 	<script src="assets/js/jquery.js"></script>
+<!-- Enlace js de Bootstrap -->
 	<script src="assets/js/bootstrap.min.js"></script>
+<!-- Enlace js que genera imágenes -->
+<script src="assets/js/docs.min.js"></script>
 </body>
 </html>
