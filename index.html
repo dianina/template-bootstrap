@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <!-- CSS Bootstrap-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<!-- Estilos específicos propio Css-->
+<!-- Enlace temas de Bootstrap -->
+<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+<!-- Enlace estilos específicos propio Css-->
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -455,21 +457,24 @@
 			</section>
 
 <!-- Sección Dropdown menu-->
-			<section class="dropdown-menus">
+			<div class="container-fluid">
 				<h2><strong>Dropdown menus</strong>
 				</h2>
 				<hr>
 					<div class="dropdown theme-dropdown clearfix">
-			      <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-			      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			        <li class="active"><a href="#">Action</a></li>
-			        <li><a href="#">Another action</a></li>
-			        <li><a href="#">Something else here</a></li>
-			        <li role="separator" class="divider"></li>
-			        <li><a href="#">Separated link</a></li>
-			      </ul>
-			    </div>
-			</section>
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+           Dropdown
+           <span class="caret"></span>
+         </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li class="active"><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+			</div>
 
 <!-- Sección Navs-->
 			<section class="nav">
@@ -701,7 +706,86 @@
 							</div>
 						</div>
 				</div>
-				
+			</section>
+
+<!-- Sección Panels -->
+			<section class="panels">
+				<div class="container-fluid">
+					<h2><strong>Panels
+							</strong>
+					</h2>
+					<hr>
+<!-- Row 1 (Panel default 1) -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="panel panel-default">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+<!-- Row 1 (Panel success 2) -->
+						<div class="col-md-4">
+							<div class="panel panel-success">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+<!-- Row 1 (Panel warning 3) -->
+						<div class="col-md-4">
+							<div class="panel panel-warning">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+					</div>
+<!-- Row 2 (Panel primary 1) -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="panel panel-primary">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+<!-- Row 2 (Panel info 2) -->
+						<div class="col-md-4">
+							<div class="panel panel-info">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+<!-- Row 2 (Panel danger 3) -->
+						<div class="col-md-4">
+							<div class="panel panel-danger">
+							  <div class="panel-heading">
+							    <h3 class="panel-title"><strong>Panel title</strong></h3>
+							  </div>
+							  <div class="panel-body">
+							    Panel content
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 	</div>
 
